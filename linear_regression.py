@@ -37,6 +37,5 @@ X = sm.add_constant(x)
 model = sm.OLS(y,X)
 f = model.fit()
 
-
-print "R^2 =". f.rsquared
-print "p-values =". f.pvalues 
+print "R^2 =", f.rsquared
+print "p-values =", f.pvalues
