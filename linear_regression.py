@@ -39,3 +39,5 @@ f = model.fit()
 
 print "R^2 =", f.rsquared
 print "p-values =", f.pvalues
+
+loansData.to_csv('loansData_clean.csv', header = True, index = False)
